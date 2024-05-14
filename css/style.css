@@ -201,7 +201,7 @@ a {
 footer {
   background: var(--el-bg);
   color: var(--texte-color);
-  padding: 20px 30px;
+  padding: 20px 100px;
 }
 
 footer ul {
