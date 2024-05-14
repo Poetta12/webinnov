@@ -1,0 +1,133 @@
+body {
+  background-color: #f2e6d8;
+  overflow-x: hidden;
+}
+body #bandeau {
+  position: relative;
+  top: 9vh;
+  min-height: 91vh;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../assets/img/img-426-0_BXEE cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+body #bandeau > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+  padding: 20px 20px 0;
+  border-radius: 20px 10px;
+}
+body #bandeau > div h2.texte-mobile {
+  display: block;
+}
+body #bandeau > div h2.texte-desktop {
+  display: none;
+}
+body #bandeau > div > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  font-family: titre;
+  width: 200px;
+  height: 50px;
+  background: orange;
+  margin: 20px 0;
+  border-radius: 10px 20px;
+  cursor: pointer;
+}
+body #about {
+  background: #d9c8b4;
+  margin: 20px;
+  padding: 10px;
+  margin-top: 11vh;
+}
+body #about h6 {
+  padding-bottom: 5px;
+}
+body #about > div:first-child {
+  left: 130%;
+  position: relative;
+}
+body #about > div:last-child {
+  right: 130%;
+  position: relative;
+}
+body #about > div {
+  text-align: justify;
+  margin: 20px;
+  background-color: var(--general-bg-color);
+  border-radius: 5px;
+  filter: drop-shadow(10px 7px 10px rgba(64, 63, 60, 0.5019607843));
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  padding: 10px 20px 10px 20px;
+}
+body #about > div #about-btn {
+  background-color: #d9c8b4;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  body #bandeau > div {
+    width: 50%;
+    max-width: 500px;
+  }
+  body #bandeau > div > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: titre;
+    width: 200px;
+    height: 50px;
+    background: orange;
+    border-radius: 10px 20px;
+    cursor: pointer;
+  }
+  body #bandeau > div h2.texte-mobile {
+    display: none;
+  }
+  body #bandeau > div h2.texte-desktop {
+    display: block;
+  }
+}
+
+.slide-in {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: both;
+}
+
+.slide-out {
+  animation-duration: 3s;
+  animation-name: slideout;
+  animation-fill-mode: both;
+}
+
+@keyframes slidein {
+  to {
+    left: 0;
+  }
+}
+@keyframes slideout {
+  to {
+    right: 0;
+  }
+}/*# sourceMappingURL=index.css.map */
