@@ -140,10 +140,6 @@ main {
   width: 75%;
   margin: auto;
 }
-li{
- list-style: none; 
- text-align: center;
-}
 section {
   background-color: #D9C8B4;
   border-color: #403F3c;
