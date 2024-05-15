@@ -405,12 +405,10 @@ footer h4 {
 ╚========================================╝
 */
 
-@media screen and (min-width: 768px) orientation: portrait{
-
+@media (orientation: portrait) {
   main{
-      margin-top: 15vh;
-    }
-  
+    margin-top: 13vh;
+  }
 }
 
 @media screen and (min-width: 1024px) {
