@@ -150,18 +150,11 @@ border-color: transparent #f5f5f5 transparent transparent;
 }
 
 }
-.vignets {
-    
+.vignets {    
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari et Chrome */
   -o-animation: fadein 2s; /* Opera */
-}
-
-@media (orientation: portrait) {
-  main{
-    margin-top: 13vh;
-  }
 }
 @keyframes fadein {
   from {
