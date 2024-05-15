@@ -91,7 +91,7 @@ div#navbarNavDropdown {
 
 nav {
   position: absolute;
-  height: 9vh;
+  height: 10vh;
   right: 0;
   z-index: 10000;
   background: var(--el-bg) !important;
