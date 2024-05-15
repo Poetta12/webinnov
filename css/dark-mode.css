@@ -10,18 +10,6 @@
        font-family: "policeTitre";
        src: url("../assets/fonts/Cabin_Sketch/CabinSketch-Bold.ttf");
    }
-
-   /* Styles when checkbox is checked */
-   #theme-switcher:checked+label+#alternate-theme {
-       display: none;
-       /* Hide alternate theme */
-   }
-
-   #theme-switcher:checked+label+#default-theme {
-       display: block;
-       /*Apply  default theme */
-   }
-
    * {
        padding: 0;
        margin: 0;
