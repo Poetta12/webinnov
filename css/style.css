@@ -406,10 +406,15 @@ footer h4 {
 */
 
 @media screen and (min-width: 1024px) {
+
+  
   @media (orientation: portrait) {
     main{
       margin-top: 15vh;
+    }
   }
+
+  
   .icon-paragraph-left {
     display: none;
   }
