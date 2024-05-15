@@ -448,6 +448,12 @@
        }
    }
 
+@media (orientation: portrait) {
+  main{
+    margin-top: 13vh;
+  }
+}
+
    /*
   ╔========================================╗
   ║                                        ║
