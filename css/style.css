@@ -67,8 +67,8 @@ header {
   display: flex;
   place-content: space-between;
   place-items: center;
-  /*padding-right: 40px;*/
-  /*height: 10vh;*/
+  padding-right: 40px;
+  height: 10vh;
   background-color: rgba(217, 200, 180, 0.7);
 }
 
