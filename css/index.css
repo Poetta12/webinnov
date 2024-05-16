@@ -1,0 +1,183 @@
+/*
+╔========================================╗
+║                                        ║
+║              CSS GENERAL               ║
+║                                        ║
+╚========================================╝
+*/
+/* body {
+    background-color: var(--general-bg-color);
+    overflow-x: hidden;
+} */
+
+/*
+╔========================================╗
+║                                        ║
+║                 BANNER                 ║
+║                                        ║
+╚========================================╝
+*/
+/* #bandeau {
+    position: relative;
+    top: 9vh;
+    min-height: 91vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../assets/img/img-426-0_BXEE cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+} */
+
+/* h2.texte-mobile {
+    display: block;
+}
+
+h2.texte-desktop {
+    display: none;
+} */
+
+/* #bandeau>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .5);
+    text-align: justify;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    padding: 20px 20px 0;
+    border-radius: 20px 10px;
+}
+
+#bandeau>div>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    font-family: titre;
+    width: 200px;
+    height: 50px;
+    background: orange;
+    margin: 20px 0;
+    border-radius: 10px 20px;
+    cursor: pointer;
+} */
+
+/*
+╔========================================╗
+║                                        ║
+║                  MAIN                  ║
+║                                        ║
+╚========================================╝
+*/
+
+/* #about {
+    background: var(--el-bg);
+    margin: 20px;
+    padding: 10px;
+    margin-top: 11vh;
+}
+
+#about h6 {
+    padding-bottom: 5px;
+}
+
+#about>div {
+    text-align: justify;
+    margin: 20px;
+
+
+}
+
+#about-btn {
+    background-color: var(--general-bg-color);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    cursor: pointer;
+} */
+
+/*
+╔========================================╗
+║                                        ║
+║               RESPONSIVE               ║
+║                                        ║
+╚========================================╝
+*/
+
+/* @media only screen and (min-width: 768px) {
+    #bandeau>div {
+        width: 50%;
+        max-width: 500px;
+    }
+
+    #bandeau>div>a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: titre;
+        width: 200px;
+        height: 50px;
+        background: orange;
+        border-radius: 10px 20px;
+        cursor: pointer;
+    }
+
+    h2.texte-mobile {
+        display: none;
+    }
+
+    h2.texte-desktop {
+        display: block;
+    }
+}
+
+#about>div:first-child {
+    left: 150%;
+    position: relative;
+
+}
+
+#about>div:last-child {
+    right: 150%;
+    position: relative;
+
+}
+
+#about>div {
+    background-color: var(--general-bg-color);
+    border-radius: 5px;
+    filter: drop-shadow(10px 7px 10px #403f3c80);
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    padding: 10px 20px 10px 20px;
+}
+
+.slide-in {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-fill-mode: both;
+}
+
+.slide-out {
+    animation-duration: 3s;
+    animation-name: slideout;
+    animation-fill-mode: both;
+}
+
+@keyframes slidein {
+    to {
+        left: 0;
+    }
+}
+
+@keyframes slideout {
+    to {
+        right: 0;
+    }
+} */

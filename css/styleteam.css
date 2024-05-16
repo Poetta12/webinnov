@@ -1,0 +1,64 @@
+body {
+    align-self: center;
+    position: relative;
+    width: 100%;
+}
+main {
+    width: 75%;
+    background-color: #F2E6D8;
+    margin: auto;
+}
+.avatar {
+    width: 100%;
+    height: 100%;
+}
+#intro {
+    background-color: #D9C8B4;
+    margin-bottom: 5%;
+}
+.intro {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.cardisplay{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    row-gap: 10px;
+}
+.cardisplay section{
+   width: 100%;
+}
+.contenu2, .contenu1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+section article{
+    display: flex;
+    background-color: #D9C8B4;
+    border-color: #403F3c;
+    margin-bottom: 5%;
+}
+.cartedroite{
+    flex-direction: row-reverse;
+}
+
+@media  screen and (min-width :481px) {
+    #carteequipe{
+        width: 100%;
+    }
+    section{
+        width: 49%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #intro{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,108 @@
+.intro {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+body {
+    background-color: #f2e6d8;
+    box-shadow: 100px;
+
+}
+
+#bloc_photo {
+    background-color: #d9c8b4;
+    text-align: center;
+
+}
+
+#presentation {
+    text-align: center;
+    border: 5px groove black;
+    background-color: #d9c8b4;
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    line-height: 40px;
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2e6d8;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#experiencesPro {
+    text-align: center;
+    border: 5px groove black;
+    background-color: #d9c8b4;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#formation {
+    text-align: center;
+    border: 5px groove black;
+    background-color: #d9c8b4;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#compétences {
+    text-align: center;
+    border: 5px groove black;
+    background-color: #d9c8b4;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 40px;
+
+}
+
+#hobbies {
+    text-align: center;
+    border: 5px groove black;
+    background-color: #d9c8b4;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        width: 70%;
+        margin: auto;
+        box-shadow: 10px 10px 10px 10px black;
+        margin-bottom: 20px;
+    }
+
+    #experiencesPro,
+    #formation,
+    #compétences,
+    #hobbies,
+    #presentation {
+        width: 60%;
+        margin: 20px auto;
+        border-radius: 10px 100px / 120px;
+
+
+
+    }
+
+
+}

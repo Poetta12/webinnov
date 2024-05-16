@@ -1,0 +1,321 @@
+body {
+    padding-top: 100px;
+}
+
+#pricing-tables {
+    color: var(--texte-color);
+    padding: 30px 0;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+#pricing-tables .col-md-3,
+.col-sm-6,
+.col-xs-12 {
+    padding-right: 0;
+    padding-left: 0;
+
+    &:hover {
+        box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75);
+        z-index: 2;
+        transform: scale(1.06);
+        border: 0;
+        transition: 0.5s all;
+        border: none;
+    }
+}
+
+#pricing-tables>div.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+
+div.container>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10px;
+
+
+
+}
+
+div.container>div a {
+    background: #D9AC84;
+    padding: 10px;
+    border-radius: 10px 20px 10px 20px;
+    width: fit-content;
+    margin: 10px;
+    align-self: center;
+}
+
+th,
+td {
+    border: 2px solid rgb(171, 150, 150);
+    height: 50px;
+    padding: 5px;
+
+}
+
+.tbody {
+    border-collapse: collapse;
+}
+
+table {
+    box-shadow: 0px 11px 30px 0px rgba(0, 0, 0, 0.75) inset;
+    z-index: 2;
+    margin: 0 auto 20px;
+
+
+}
+
+#pricing-tables p {
+    font-family: var(--texte-font);
+    font-weight: bolder;
+}
+
+#pricing-tables h3,
+h4 {
+    font-family: var(titre-font) !important;
+    font-weight: bolder;
+}
+
+#pricing-tables ul {
+    padding-left: 0 !important;
+    max-width: 90%;
+    margin: auto;
+}
+
+#pricing-tables li {
+    color: var(--texte-color);
+    line-height: 2;
+    font-weight: bolder;
+}
+
+.single-table {
+    -webkit-transition: all 0.20s linear;
+    transition: all 0.20s linear;
+    z-index: 1;
+}
+
+.single-table .plan-header {
+    color: black;
+    text-transform: capitalize;
+    padding: 2px 0;
+}
+
+.single-table .plan-header h3 {
+    margin: 0;
+    padding: 20px 0 5px 0;
+    text-transform: uppercase;
+}
+
+.plan-price {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 50%;
+    color: black;
+    padding: 33px 15px;
+}
+
+.plan-price {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.plan-price ul {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.plan-price ul li {
+    padding: 8px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+
+.plan-price ul li .plan-submit {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 0 30px 0;
+    padding: 10px 40px;
+    border: 1px solid black;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+
+.plan-price ul li .plan-submit:hover {
+    color: #FFF;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+/* Bubble Float Right */
+.hvr-bubble-float-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-bubble-float-right:before {
+    position: absolute;
+    z-index: -1;
+    top: calc(50% - 10px);
+    right: 0;
+    content: '';
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-bubble-float-right:hover,
+.hvr-bubble-float-right:focus,
+.hvr-bubble-float-right:active {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+}
+
+.hvr-bubble-float-right:hover:before,
+.hvr-bubble-float-right:focus:before,
+.hvr-bubble-float-right:active:before {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    border-color: transparent transparent transparent black;
+}
+
+.color-2 .single-table .plan-header {
+    color: black;
+}
+
+.color-2 .single-table .plan-header .plan-price {
+    color: black;
+    background: #fff;
+}
+
+
+.color-2 .single-table .plan-header .plan-price .single-table .plan-submit {
+    color: black;
+}
+
+.color-2 .single-table .plan-header .plan-price .single-table .plan-submit:hover {
+    color: #FFF;
+}
+
+
+
+.hvr-bubble-float-right:hover:before,
+.hvr-bubble-float-right:focus:before,
+.hvr-bubble-float-right:active:before {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    border-color: transparent transparent transparent black;
+}
+
+
+
+.color-3 .single-table .plan-header {
+    color: black;
+}
+
+.color-3 .single-table .plan-header .plan-price {
+    color: black;
+    background: #fff;
+}
+
+
+.color-3 .single-table .plan-header .plan-price .single-table .plan-submit {
+    border: 1px solid black;
+    color: black;
+}
+
+.color-3 .single-table .plan-header .plan-price .single-table .plan-submit:hover {
+    color: #FFF;
+}
+
+
+
+.hvr-bubble-float-right:hover:before,
+.hvr-bubble-float-right:focus:before,
+.hvr-bubble-float-right:active:before {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    border-color: transparent transparent transparent black;
+}
+
+
+
+
+
+.color-4 .single-table .plan-header {
+    color: black;
+}
+
+.color-4 .single-table .plan-header .plan-price {
+    color: black;
+    background: #fff;
+}
+
+.color-4 .single-table .plan-header .plan-price .single-table .plan-submit {
+    border: 1px solid black;
+    color: black;
+}
+
+.color-4 .single-table .plan-header .plan-price .single-table .plan-submit:hover {
+    color: #FFF;
+}
+
+
+.hvr-bubble-float-right:hover:before,
+.hvr-bubble-float-right:focus:before,
+.hvr-bubble-float-right:active:before {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    border-color: transparent transparent transparent black;
+}
+
+@media screen and (max-width: 767px) {
+
+
+    div.container>div {
+        width: 100%;
+    }
+
+}
+
+.cache {
+    border-top: none;
+    border-left: none;
+}
